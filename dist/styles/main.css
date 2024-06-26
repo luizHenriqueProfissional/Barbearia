@@ -1,0 +1,82 @@
+.sobre {
+  background-color: #ccc;
+  padding: 10vw;
+}
+
+.sobre .container2 {
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  display: grid;
+}
+
+.sobre .container2 h3 {
+  margin-top: 2em;
+}
+
+.sobre .container2 p {
+  margin-top: 6em;
+}
+
+.agendamento {
+  text-align: center;
+  background-color: red;
+  padding: 2.5vw;
+}
+
+.agendamento h2 {
+  color: #fff;
+  margin-bottom: 4em;
+  padding: 20px 0;
+}
+
+.agendamento .button {
+  width: 300px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.agendamento form label {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.agendamento form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.agendamento form select {
+  padding: 5px;
+}
+
+.horarios {
+  text-align: center;
+  width: 100%;
+  padding: 5vw;
+}
+
+.horarios .cabecalho {
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+}
+
+header .container {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+header .container h1 {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+@use 'sobre';
+@use 'agends';
+@use 'horarios';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    .container{
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        h1{
+            color: #fff;
+        }
+    }
+}

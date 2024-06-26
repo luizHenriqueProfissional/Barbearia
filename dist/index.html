@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Breno Barber</h1>
+        </div>
+    </header>
+    <section class="sobre">
+        <div class="container2">
+            <img src="https://via.placeholder.com/400x400" alt="">
+            <div class="description">
+                <h3>Barbearia Bren`s</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia necessitatibus quo impedit obcaecati labore nesciunt porro in unde rerum assumenda consequuntur, alias sint molestias dolore a quam iure laudantium.</p>
+            </div>
+        </div>
+    </section>
+    <section class="agendamento">
+            <h2>Agende o seu horario</h2>
+            <form id="formulario">
+                <label for="nome">Seu nome</label>
+                <input id="nomeCliente" type="text" required="">
+                <label for="telefone">Seu contato</label>
+                <input id="telefone" type="tel" required="">
+                <label for="corte">Seu corte</label>
+                <input id="corte" type="text" required="">
+                <select name="" id="pg">
+                    <option id="">Debito</option>
+                    <option id="">Credito</option>
+                    <option id="">Dinheiro</option>
+                </select>
+                 <button class="button">Cadastrar</button>
+            </form>
+    </section>
+    <section>
+        <table class="horarios">
+            <thead>
+                <tr>
+                    <th class="cabecalho">Nome</th>
+                    <th class="cabecalho">Contato</th>
+                    <th class="cabecalho">Corte</th>
+                    <th class="cabecalho">Forma de pagamento</th>
+                </tr>
+            </thead>
+            <tbody id="infos-clientes">
+                <tr>
+                    <td class="nome-cliente"></td>
+                    <td class="telefone-cliente"></td>
+                    <td class="corte-cliente"></td>
+                    <td class="pg-cliente"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="/index.6a31943b.js"></script>
+<script src="/barber.59712999.js"></script></body>
+</html>

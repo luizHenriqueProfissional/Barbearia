@@ -1,0 +1,16 @@
+.sobre{
+    padding: 10vw;
+    background-color: #ccc;
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        text-align: center;
+        h3{
+            margin-top: 2em;
+        }
+        p{
+            margin-top: 6em;
+        }
+    }
+}
